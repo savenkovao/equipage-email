@@ -269,7 +269,7 @@ body img.driver-rate-icon {
   display: inline-block;
   width: 16px;
   height: 16px;
-  padding: 0 0 0 3px;
+  padding: 0;
 }
 
 .driver-container {
@@ -295,7 +295,7 @@ body img.driver-rate-icon {
 
 .car-number {
   display: inline-block;
-  padding: 0 3px 0 0;
+  //padding: 0 3px 0 0;
 }
 
 .car-flag {
@@ -307,7 +307,7 @@ body img.driver-rate-icon {
 
 .car-region {
   display: inline-block;
-  padding: 0 0 0 3px;
+  //padding: 0 0 0 3px;
 }
 
 .support-btn-spacer {
@@ -424,5 +424,5 @@ a {
 
 .letter-img {
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 }
